@@ -1,0 +1,38 @@
+@import "styles.css";
+
+.images-container img {
+  max-width: 700px;
+}
+
+.images-container {
+  display: block;
+  margin: 50px;
+}
+
+.image-style {
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.first-card {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: bisque;
+  
+}
+.second-card {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: bisque;
+}
+.third-card {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: bisque;
+}
+
+.descriptionStyle {
+  max-width: 600px;
+  margin: 0 auto;
+}
