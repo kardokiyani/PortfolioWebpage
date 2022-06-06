@@ -1,1 +1,26 @@
 @import "styles.css";
+
+.aboutMeImage {
+  max-width: 800px;
+  width: 100%;
+}
+
+.aboutMeContainer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin: 30px;
+}
+
+.h2-class {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.aboutMeParagraph {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+}
