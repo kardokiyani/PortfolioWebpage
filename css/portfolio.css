@@ -17,19 +17,24 @@
 
 .first-card {
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: bisque;
-  
+  padding: 20px;
+  margin: 40px;
 }
 .second-card {
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: bisque;
+  padding: 20px;
+  margin: 40px;
 }
 .third-card {
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: bisque;
+  padding: 20px;
+  margin: 40px;
 }
 
 .descriptionStyle {
