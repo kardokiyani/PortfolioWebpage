@@ -57,6 +57,40 @@ nav ul {
   width: 100%;
 }
 
+.portfolio-h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.projectsImage {
+  max-width: 800px;
+  width: 100%;
+}
+
+.projectsContainer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin: 30px;
+}
+
+.welcomeParagraph {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.welcomeSection {
+  background-color: #f0f0e1;
+  margin: 30px;
+  padding: 30px;
+}
+
 .footerStyling {
   padding: 30px;
   background-color: #000000;
@@ -68,4 +102,46 @@ nav ul {
   font-size: 1.5rem;
   text-align: center;
   margin: 10px;
+}
+
+.images-container img {
+  max-width: 700px;
+}
+
+.images-container {
+  display: block;
+  margin: 50px;
+}
+
+.image-style {
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.first-card {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #f0f0e1;
+  padding: 20px;
+  margin: 40px;
+}
+.second-card {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #f0f0e1;
+  padding: 20px;
+  margin: 40px;
+}
+.third-card {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #f0f0e1;
+  padding: 20px;
+  margin: 40px;
+}
+
+.descriptionStyle {
+  max-width: 600px;
+  margin: 0 auto;
 }
