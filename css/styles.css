@@ -36,6 +36,11 @@ nav ul {
   padding: 15px;
 }
 
+.navStyleOnIt {
+  background-color: #f0f0e1;
+  color: #000000;
+}
+
 .headerStyling {
   padding: 30px;
   background-color: #000000;
@@ -144,4 +149,8 @@ nav ul {
 .descriptionStyle {
   max-width: 600px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 362px) {
+  
 }
