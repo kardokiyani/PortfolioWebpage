@@ -153,21 +153,23 @@ nav ul {
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 912px) {
-  .images-container img {
-    max-width: 600px;
+@media only screen and (max-width: 500px) {
+  .first-card,
+  .second-card,
+  .third-card,
+  .fourth-card,
+  .fifth-card,
+  .sixth-card {
+    margin: 0 auto;
+    margin: 20px;
   }
-}
 
-@media only screen and (max-width: 820px) {
   .images-container img {
-    max-width: 550px;
+    max-width: 200px;
   }
-}
 
-@media only screen and (max-width: 768px) {
-  .images-container img {
-    max-width: 500px;
+  .containerForm {
+    max-width: 400px;
   }
 }
 
@@ -186,19 +188,20 @@ nav ul {
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .first-card,
-  .second-card,
-  .third-card {
-    margin: 0 auto;
-    margin: 20px;
-  }
-
+@media only screen and (max-width: 768px) {
   .images-container img {
-    max-width: 200px;
+    max-width: 500px;
   }
+}
 
-  .containerForm {
-    max-width: 400px;
+@media only screen and (max-width: 820px) {
+  .images-container img {
+    max-width: 550px;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .images-container img {
+    max-width: 600px;
   }
 }
