@@ -1,6 +1,6 @@
 # PortfolioWebpage
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![portfolio-image](https://github.com/kardokiyani/PortfolioWebpage/assets/91535515/fc6b0072-c40d-4776-b4e5-4164eac6f1d2)
 
 ## Description
 
