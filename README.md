@@ -19,6 +19,34 @@ This is the tech stack that I have used to make this site:
 
 - [Adobe XD](https://www.adobe.com)
 
+## Getting Started
+
+### Installing
+
+Here you can get info on how to start the project, basically how to clone the repo and install the dependencies:
+
+1. Clone the repo:
+
+```bash
+git clone git@github.com/kardokiyani/PortfolioWebpage.git
+```
+
+2. Install the dependencies:
+
+```
+npm install
+```
+
+### Running
+
+Info on how to run the app:
+
+To run the app, run the following commands:
+
+```bash
+npm run start
+```
+
 ## Contributing
 
 Here you can detail any information you want to provide regarding contributing to the project. For big projects, you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects, you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so the code can be reviewed.
