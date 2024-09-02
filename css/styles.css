@@ -132,7 +132,8 @@ nav ul {
 .fourth-card,
 .fifth-card,
 .sixth-card,
-.seventh-card {
+.seventh-card,
+.eight-card {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: #f0f0e1;
@@ -163,7 +164,9 @@ nav ul {
   .third-card,
   .fourth-card,
   .fifth-card,
-  .sixth-card {
+  .sixth-card,
+  .seventh-card,
+  .eight-card {
     margin: 0 auto;
     margin: 20px;
   }
