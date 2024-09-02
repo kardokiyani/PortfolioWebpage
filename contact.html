@@ -1,89 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Contact Page</title>
-    <meta name="description" content="Kardo`s Portfolio Website" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/9ee3873b5b.js"
-      crossorigin="anonymous"
-    ></script>
-    <link href="css/contact.css" rel="stylesheet" />
-  </head>
-  <body>
-    <header class="headerStyling">
-      <div class="logoContainer">
-        <a href="index.html"
-          ><img
-            class="LogoHeader"
-            src="images/portofolio-logo.PNG"
-            alt="portfolio-logo"
-        /></a>
+<main class="containerForm">
+  <!-- Contact Info Section -->
+  <section class="contact-info">
+    <h2 class="contact-info-title">Get in Touch</h2>
+    <p class="contact-info-text">
+      Feel free to reach out to me through the following contact details. I look
+      forward to hearing from you!
+    </p>
+    <div class="contact-details">
+      <div class="contact-detail-item">
+        <i class="fas fa-envelope"></i>
+        <span>Email:</span>
+        <a href="mailto:your.email@example.com">your.email@example.com</a>
       </div>
-    </header>
-    <nav class="navClass">
-      <ul>
-        <li><a href="index.html" class="nav-style">Projects</a></li>
-        <li>
-          <a href="contact.html" class="nav-style navStyleOnIt">Contact</a>
-        </li>
-        <li><a href="about.html" class="nav-style">About</a></li>
-      </ul>
-    </nav>
-    <main class="containerForm">
-      <form id="contact-form">
-        <h1 class="h1-style">Contact Me</h1>
-        <div class="contactSuccess"></div>
-        <div>
-          <label>
-            Name
-            <input name="name" id="usersName" />
-          </label>
-          <div class="formError" id="nameError">
-            Should be more than 4 characters long
-          </div>
-        </div>
-
-        <div>
-          <label>
-            Email address
-            <input name="email" id="email" />
-          </label>
-          <div class="formError" id="emailError">
-            Must be a valid email address
-          </div>
-        </div>
-
-        <div>
-          <label>
-            Subject
-            <input name="subject" id="subject" />
-          </label>
-          <div class="formError" id="subjectError">
-            Should be more than 20 characters long
-          </div>
-        </div>
-
-        <div>
-          <label>
-            Message content
-            <input name="messageContent" id="message-content" />
-          </label>
-          <div class="formError" id="messageContentError">
-            Should be more than 15 characters long
-          </div>
-        </div>
-        <div class="button-container">
-          <input type="submit" class="button-style" value="SUBMIT" />
-        </div>
-      </form>
-    </main>
-    <footer class="footerStyling">
-      <div class="footer-text">
-        &copy Kardo`s Portfolio 2024 | All rights reserved.
+      <div class="contact-detail-item">
+        <i class="fas fa-phone"></i>
+        <span>Phone:</span>
+        <a href="tel:+1234567890">+1234567890</a>
       </div>
-      <div class="footer-text">Terms of Service | Privacy Policy</div>
-    </footer>
-    <script src="js/contact.js"></script>
-  </body>
-</html>
+      <div class="contact-detail-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Location:</span>
+        <span>Your City, Your Country</span>
+      </div>
+      <div class="contact-detail-item">
+        <i class="fas fa-globe"></i>
+        <span>Website:</span>
+        <a href="https://yourwebsite.com">yourwebsite.com</a>
+      </div>
+    </div>
+    <div class="social-media-icons">
+      <a href="https://twitter.com/yourprofile" target="_blank"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <a href="https://github.com/yourprofile" target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+    </div>
+  </section>
+
+  <!-- Existing Contact Form -->
+  <form id="contact-form">
+    <h1 class="h1-style">Contact Me</h1>
+    <div class="contactSuccess"></div>
+    <div>
+      <label>
+        Name
+        <input name="name" id="usersName" />
+      </label>
+      <div class="formError" id="nameError">
+        Should be more than 4 characters long
+      </div>
+    </div>
+
+    <div>
+      <label>
+        Email address
+        <input name="email" id="email" />
+      </label>
+      <div class="formError" id="emailError">Must be a valid email address</div>
+    </div>
+
+    <div>
+      <label>
+        Subject
+        <input name="subject" id="subject" />
+      </label>
+      <div class="formError" id="subjectError">
+        Should be more than 20 characters long
+      </div>
+    </div>
+
+    <div>
+      <label>
+        Message content
+        <input name="messageContent" id="message-content" />
+      </label>
+      <div class="formError" id="messageContentError">
+        Should be more than 15 characters long
+      </div>
+    </div>
+    <div class="button-container">
+      <input type="submit" class="button-style" value="SUBMIT" />
+    </div>
+  </form>
+</main>
