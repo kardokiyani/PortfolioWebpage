@@ -13,7 +13,7 @@ body {
 }
 
 .nav-style {
-  background-color: #471414;
+  background-color: grey;
   color: #fff;
 }
 
@@ -43,7 +43,7 @@ nav ul {
 
 .headerStyling {
   padding: 30px;
-  background-color: #000000;
+  background-color: grey;
 }
 
 .logoContainer {
