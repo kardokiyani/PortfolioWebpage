@@ -13,7 +13,7 @@ body {
 }
 
 .nav-style {
-  background-color: lightblue;
+  background-color: #f0f0e1;
   color: #fff;
 }
 
@@ -98,7 +98,7 @@ nav ul {
 
 .footerStyling {
   padding: 30px;
-  background-color: lightblue;
+  background-color: #f0f0e1;
 }
 
 .footer-text {
