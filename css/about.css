@@ -1,17 +1,5 @@
 @import "styles.css";
 
-.aboutMeImage {
-  max-width: 800px;
-  width: 100%;
-}
-
-.aboutMeContainer {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  margin: 30px;
-}
-
 .h2-class {
   display: flex;
   justify-content: center;
@@ -29,4 +17,77 @@
   background-color: #f8f9fa;
   margin: 30px;
   padding: 30px;
+}
+
+.skillsSection {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.skillsList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  gap: 15px;
+}
+
+.skillsList li {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #eaf2f8;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #2c3e50;
+  transition: background-color 0.3s;
+}
+
+.skillsList li:hover {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+.educationSection {
+  background-color: #ffffff;
+  margin: 30px auto;
+  padding: 40px;
+  max-width: 900px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.educationTimeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.educationItem {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border-left: 4px solid #1abc9c;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.educationYear {
+  font-weight: 500;
+  color: #34495e;
+  width: 100px;
+}
+
+.educationContent h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.educationContent p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
 }

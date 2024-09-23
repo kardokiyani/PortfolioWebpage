@@ -50,7 +50,7 @@ nav ul {
 
 .logoContainer {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .LogoHeader {
@@ -74,7 +74,7 @@ nav ul {
 
 /* Project Image Section */
 .projectsImage {
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   border-radius: 10px;
 }
