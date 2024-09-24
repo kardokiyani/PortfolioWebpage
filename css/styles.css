@@ -62,14 +62,14 @@ nav ul {
   font-size: 2.5rem;
   text-align: center;
   margin: 40px 0;
-  color: #333;
+  color: #ffffff;
 }
 
 .portfolio-h2 {
   font-size: 2rem;
   text-align: center;
   margin: 40px 0;
-  color: #333;
+  color: #ffffff;
 }
 
 /* Project Image Section */
@@ -155,7 +155,7 @@ nav ul {
 /* Footer */
 .footerStyling {
   padding: 30px;
-  background-color: #424240;
+  background-color: #151b23;
   color: #fff;
 }
 
