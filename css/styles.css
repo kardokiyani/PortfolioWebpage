@@ -5,6 +5,44 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px; /* Adjust for spacing */
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #333;
+}
+
+/* Typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.portfolio-h1 {
+  font-family: monospace;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  animation: typing 3s steps(30, end) forwards, blink 0.5s step-end 3;
+}
+
 /* Navigation Bar */
 .navClass {
   display: flex;
@@ -45,7 +83,7 @@ nav ul {
 /* Header */
 .headerStyling {
   padding: 30px;
-  background-color: #151b23
+  background-color: #151b23;
 }
 
 .logoContainer {
@@ -59,7 +97,7 @@ nav ul {
 
 /* Main Titles */
 .portfolio-h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   margin: 40px 0;
   color: #ffffff;
